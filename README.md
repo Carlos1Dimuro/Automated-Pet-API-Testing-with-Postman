@@ -41,11 +41,14 @@ Upload the files petshop-api-collection.json and petshop-api-environment.json.
 Select the "Petshop API" environment in the Postman interface.
 Run Tests with Newman:
 
-Install Newman if you haven't already: npm install -g newman.
+Install Newman if you haven't already:
+npm install -g newman.
+
 Run the tests using the following command:
+
 bash
 Copiar código
-newman run petshop-api-collection.json -e petshop-api-environment.json
+**newman run petshop-api-collection.json -e petshop-api-environment.json**
 
 **Contributing**
 
